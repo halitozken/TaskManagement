@@ -1,4 +1,3 @@
-using System.Reflection.Metadata;
 using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
@@ -29,7 +28,7 @@ namespace Services
             _manager.Save();
         }
 
-        public IEnumerable<TaskModel> GetAllTask(bool trackChanges)
+        public IEnumerable<TaskModel> GetAllTasks(bool trackChanges)
         {
             return _manager.Task.GetAllTasks(trackChanges);
         }
@@ -40,6 +39,7 @@ namespace Services
         }
 
         public void UpdateOneTask(int id, TaskModel task, bool trackChanges)
+
         {
             var entity = _manager.Task.GetOneTaskById(id, trackChanges) ?? throw new Exception($"The book with id:{id} could not found");
 
@@ -52,8 +52,8 @@ namespace Services
             entity.Workspace = task.Workspace;
 
             _manager.Task.UpdateOneTask(entity); //!
-
             _manager.Save();
         }
+
     }
 }
