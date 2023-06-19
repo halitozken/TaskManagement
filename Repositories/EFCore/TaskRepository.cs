@@ -13,13 +13,14 @@ namespace Repositories.EFCore
         public void CreateOneTask(TaskModel task) => Create(task);
 
         public void DeleteOneTask(TaskModel task) => Delete(task);
-        public IQueryable<TaskModel> GetAllTasks(bool trackChanges) => FindAll(trackChanges);
+
+        public IQueryable<TaskModel> GetAllTasks(bool trackChanges) =>
+                FindAll(trackChanges);
 
         public TaskModel? GetOneTaskById(int id, bool trackChanges) =>
             FindByCondition(b => b.Id.Equals(id), trackChanges).SingleOrDefault();
 
         public void UpdateOneTask(TaskModel task) => Update(task);
 
-    
     }
 }

@@ -4,7 +4,6 @@ namespace Services.Contracts
 {
     public interface ITaskService
     {
-
         IEnumerable<TaskModel> GetAllTask(bool trackChanges);
         TaskModel GetOneTaskById(int id, bool trackChanges);
         TaskModel CreateOneTask(TaskModel task);
