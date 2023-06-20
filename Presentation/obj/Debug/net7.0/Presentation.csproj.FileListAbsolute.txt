@@ -10,3 +10,10 @@ C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\obj\Debu
 C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\obj\Debug\net7.0\refint\Presentation.dll
 C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\obj\Debug\net7.0\Presentation.pdb
 C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\obj\Debug\net7.0\ref\Presentation.dll
+C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\bin\Debug\net7.0\Entities.dll
+C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\bin\Debug\net7.0\Repositories.dll
+C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\bin\Debug\net7.0\Services.dll
+C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\bin\Debug\net7.0\Services.pdb
+C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\bin\Debug\net7.0\Entities.pdb
+C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\bin\Debug\net7.0\Repositories.pdb
+C:\Users\Halit\Desktop\Works\BackEnd\DotNet\TaskManagement\Presentation\obj\Debug\net7.0\Presentation.csproj.CopyComplete

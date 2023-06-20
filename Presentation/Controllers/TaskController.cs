@@ -31,7 +31,7 @@ namespace Presentation.Controllers
             }
         }
 
-        [HttpGet("{int:id}")]
+        [HttpGet("{id:int}")]
         public IActionResult GetOneTask([FromRoute(Name = "id")] int id)
         {
             try
@@ -50,7 +50,7 @@ namespace Presentation.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpPost]
         public IActionResult CreateOneTask([FromBody] TaskModel task)
         {
             try
@@ -68,7 +68,7 @@ namespace Presentation.Controllers
             }
         }
 
-        [HttpPut("{int:id}")]
+        [HttpPut("{id:int}")]
         public IActionResult UpdateOneTask([FromRoute(Name = "id")] int id, [FromBody] TaskModel task)
         {
             try
@@ -87,7 +87,7 @@ namespace Presentation.Controllers
             }
         }
 
-        [HttpDelete("{int:id}")]
+        [HttpDelete("{id:int}")]
         public IActionResult DeleteOneTask([FromRoute(Name = "id")] int id)
         {
             try
@@ -102,7 +102,7 @@ namespace Presentation.Controllers
             }
         }
 
-        [HttpPatch("{int:id}")]
+        [HttpPatch("{id:int}")]
         public IActionResult PartiallyUpdateOneTask([FromRoute(Name = "id")] int id, [FromBody] JsonPatchDocument<TaskModel> taskPatch)
         {
             try
